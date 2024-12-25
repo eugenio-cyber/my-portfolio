@@ -2,7 +2,7 @@ import "./styles.scss";
 
 const Footer = () => {
   return (
-    <div className='footer container'>
+    <div className='footer'>
       <span className='footer__text'>
         © {new Date().getFullYear()} - Wesley Costa - Todos os direitos
         reservados
