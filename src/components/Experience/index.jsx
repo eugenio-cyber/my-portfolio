@@ -3,7 +3,7 @@ import { useState } from "react";
 import companies from "../../utils/companies.js";
 
 const Experience = () => {
-  const [companyState, setCompanyState] = useState("erural");
+  const [companyState, setCompanyState] = useState("Strelo");
 
   return (
     <section className='experience container section' id='experience'>
