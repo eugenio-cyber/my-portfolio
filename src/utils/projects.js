@@ -2,8 +2,22 @@ import ShortenerLinks from "../assets/shortener-links.png";
 import DinDin from "../assets/din-din.png";
 import Pagamentos from "../assets/pagamentos.png";
 import VirtualRoom from "../assets/virtual-rooms.png";
+import DigitalAirport from "../assets/digital-airport.png";
 
 export const projects = [
+  {
+    title: "Digital Airport",
+    text: "Uma solução com o objetivo de digitalizar os aeroportos, permitindo que o usuário tenha tudo na palma da mão.",
+    link: "https://digital-airport.vercel.app/",
+    img: DigitalAirport,
+    technologies: [
+      "NextJS",
+      "Material UI",
+      "TypeScript",
+      "MongoDB",
+      "GitHub Pages",
+    ],
+  },
   {
     title: "Meu Link",
     text: "Se trata de uma aplicação que faz o encurtamento dos seus links e com o auxílio da API do bit.ly.",
